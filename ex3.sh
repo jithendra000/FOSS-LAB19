@@ -8,9 +8,9 @@ case $op in
  1) echo " current logged user : $USER "
     echo " logged name : $LOGNAME "
     ;;
- 2)echo " current shell: $SHELL "
+ 2) echo " current shell: $SHELL "
     ;;
- 3)echo " home directory : $HOME "
+ 3) echo " home directory : $HOME "
     ;;
  4) echo " operating system and version : " 
      cat /proc/version 
